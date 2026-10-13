@@ -1,0 +1,2 @@
+httpx>=0.28
+langchain-core>=1.6
