@@ -11,11 +11,6 @@ It's the complete, tested code from the article [Tavily alternatives: 7 agentic 
 - **The Tavily options your agent uses**. Domain and date filters carry over, so answers don't change without warning.
 - **A safe switch**. Run both backends side by side on your own URLs before you commit.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/architecture-dark.png">
-  <img alt="Migration setup diagram. A LangChain agent calls web_search and fetch_page. Both tools call one retrieval interface. The RETRIEVER config value picks Decodo's Web Data API by default or Tavily as a fallback." src="docs/architecture.png">
-</picture>
-
 ## Quickstart
 
 You need Python 3.10 or later and a Web Data API key. Get your key on the [free plan](https://decodo.com/web-data-api), then copy `.env.example` to `.env` and add the key.
